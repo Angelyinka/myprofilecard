@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Prociono&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.764);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Prociono', sans-serif;
+}
+
+.profile-card {
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  width: 300px;
+
+}
+.profile-image img {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 24px;
+  color: palevioletred;
+  margin-bottom: 10px;
+}
+
+.location {
+  color: pink;
+  margin-bottom: 10px;
+}
+
+.bio {
+  font-size: 14px;
+  color: white;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  width: 100%;
+  color: pink;
+}
+
+.btn:hover  {
+  cursor: pointer;
+  background-color: rgb(237, 14, 88);
+  filter: drop-shadow(0 0 10px #fffdef);
+}
+
